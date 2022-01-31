@@ -4,7 +4,6 @@ today = datetime.date.today()
 print(today, "\n")
 
 intDay = datetime.date(today.year, today.month, today.day).weekday()
-days = ['pn', 'wt', 'sr', 'czw', 'pt', 'sb', 'nd']
+days = ['poniedziałek', 'wtorek', 'środę', 'czwartek', 'piątek', 'sobotę', 'niedzielę']
 
-print(days[intDay])
-print()
+print(f'Dziś mamy {days[intDay]}')
